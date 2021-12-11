@@ -7,9 +7,9 @@
 
 import Foundation
 
-class RecipeModel {
+class RecipeModel: ObservableObject {
     
-    var recipes = [Recipe]()
+    @Published var recipes = [Recipe]()
     
     init() {
         // Create some dummy recipe data

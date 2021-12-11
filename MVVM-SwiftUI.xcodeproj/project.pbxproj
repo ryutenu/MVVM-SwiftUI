@@ -12,6 +12,7 @@
 		E7B69272276479B100D13533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B69271276479B100D13533 /* Assets.xcassets */; };
 		E7B69275276479B100D13533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B69274276479B100D13533 /* Preview Assets.xcassets */; };
 		E7B6928127647D1E00D13533 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6928027647D1E00D13533 /* Recipe.swift */; };
+		E7B6928327647E3000D13533 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6928227647E3000D13533 /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E7B69271276479B100D13533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B69274276479B100D13533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7B6928027647D1E00D13533 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E7B6928227647E3000D13533 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E7B6927D27647C5D00D13533 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E7B6928227647E3000D13533 /* RecipeModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B69270276479B000D13533 /* ContentView.swift in Sources */,
+				E7B6928327647E3000D13533 /* RecipeModel.swift in Sources */,
 				E7B6926E276479B000D13533 /* MVVM_SwiftUI_App.swift in Sources */,
 				E7B6928127647D1E00D13533 /* Recipe.swift in Sources */,
 			);

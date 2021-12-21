@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E78935952771CC7900B7686C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E78935942771CC7900B7686C /* data.json */; };
 		E7B6926E276479B000D13533 /* MVVM_SwiftUI_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6926D276479B000D13533 /* MVVM_SwiftUI_App.swift */; };
 		E7B69270276479B000D13533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6926F276479B000D13533 /* ContentView.swift */; };
 		E7B69272276479B100D13533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B69271276479B100D13533 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E78935942771CC7900B7686C /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		E7B6926A276479B000D13533 /* MVVM-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B6926D276479B000D13533 /* MVVM_SwiftUI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUI_App.swift; sourceTree = "<group>"; };
 		E7B6926F276479B000D13533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E78935932771CC5300B7686C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E78935942771CC7900B7686C /* data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E7B69261276479B000D13533 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 				E7B6927B27647C1B00D13533 /* Models */,
 				E7B6927C27647C2D00D13533 /* Views */,
 				E7B6927D27647C5D00D13533 /* ViewModels */,
+				E78935932771CC5300B7686C /* Data */,
 				E7B69271276479B100D13533 /* Assets.xcassets */,
 				E7B69273276479B100D13533 /* Preview Content */,
 			);
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B69275276479B100D13533 /* Preview Assets.xcassets in Resources */,
+				E78935952771CC7900B7686C /* data.json in Resources */,
 				E7B69272276479B100D13533 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
